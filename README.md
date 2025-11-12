@@ -2,14 +2,14 @@
 ---
 In this Git there is
 - Jupiter NoteBook File
-- The Project PDF
-While included here the project will include
+- The Project PDF  
+Not included here the project will also include  
 - 2 Docs (to be shared via One Drive)
     - Field Manual
     - Technical Report
 
 At the end this will include all project materials to be turned in
-- Code `.ipynb` File
-- Code `.hhtml` File
+- Code `ipynb` File
+- Code `html` File
 - Field Manual `pdf`
 - Technical Report `pdf`
