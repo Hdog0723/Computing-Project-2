@@ -1,8 +1,9 @@
 # Welcome to Pain
 ---
 In this Git there is
-- Jupiter NoteBook File
-- The Project PDF  
+- The Jupiter NoteBook File
+- The Project PDF
+
 Not included here the project will also include  
 - 2 Docs (to be shared via One Drive)
     - Field Manual
