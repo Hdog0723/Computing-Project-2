@@ -1,0 +1,99 @@
+AEEM 2058 Project 2 — Fall 2025
+
+Instructions:
+
+Complete this problem as a team. The problem must be solved using a numerical method that was presented in class. Built-in Python functions may be used to supplement your numerical method of choice, but they may not replace it.
+
+Your Python code must be clearly and thoroughly commented. The results should be neatly presented, with all relevant labels included.
+
+When submitting, include the following files: the Jupyter Notebook file (.ipynb), the HTML file, the written report, and the field manual.
+
+Important: Artificial intelligence and internet resources are not allowed to be used in solving this problem.
+
+Problem Statement
+
+Background
+
+The goal of artillery is to fire a shell so that it successfully hits a specific target.
+
+If we ignore the effects of air resistance, the differential equations that describe the acceleration of the shell are quite simple:
+
+d(vx)/dt = 0
+
+d(vz)/dt = −g
+
+Here, vx and vz represent the velocities in the x and z directions, respectively, and g is the acceleration due to gravity.
+
+Using these equations, we can show that the shell’s trajectory is parabolic.
+
+You are encouraged to consider and answer how this is shown before moving forward.
+
+Once this is known, we can calculate the required initial speed, v₀, and launch angle, θ₀, above the horizontal, that will allow the shell to reach its target.
+
+It can be shown that the maximum range is always achieved when θ₀ equals 45 degrees.
+
+When the effects of air resistance are included, they become significant if the shell travels a large distance or has a high speed.
+
+If we modify the equations to account for a simple model of air resistance, the governing equations become:
+
+d(vx)/dt = −c * vx * √(vx² + vz²)
+
+d(vz)/dt = −g − c * vz * √(vx² + vz²)
+
+The constant c depends on the shell’s shape and density as well as the density of the air.
+
+For this project, assume that c equals 10⁻³ per meter.
+
+To calculate the components of the position vector, recall that velocity is the derivative of position. Therefore:
+
+sx(t) = ∫ vx(t) dt
+
+sz(t) = ∫ vz(t) dt
+
+The Scenario
+
+The year is approximately 1805, and you have been hired by Napoleon Bonaparte as an artillery officer to assist in the Battle of Ulm.
+
+Napoleon, known for his own mathematical brilliance, recognizes you as a mathematical prodigy. He has assigned you the task of projecting artillery trajectories using numerical methods.
+
+In this scenario, cannonballs are being fired at a target located a horizontal distance of Δx away.
+
+As the artillery officer, you will choose the distance, for example, 0.5 miles.
+
+Your Tasks
+
+a) Develop a method for estimating the initial velocity, v₀, and the launch angle, θ₀, with reasonable accuracy, given the exact range to the target, Δx.
+
+Your method should be simple enough to be used in real time on the battlefield, without a computer.
+
+Be prepared to convince Napoleon that your numerical solution is sufficiently accurate — he will be difficult to persuade!
+
+b) Discuss the sensitivity of your solutions to variations in the constant c.
+
+c) Extend the problem to make it more realistic.
+
+You must add at least one modification. A few possible extensions include:
+
+Considering the effects of targets at different altitudes (Δz).
+
+Considering moving targets.
+
+Considering headwinds or tailwinds.
+
+Considering wind coming from an angle outside of the x–z plane.
+
+Considering firing the cannon from a boat with the target on shore — including the effect of waves.
+
+Final Deliverables
+
+Your completed project must include:
+
+A technical report describing your method, written for a mathematically sophisticated audience.
+
+A field manual that instructs an artillery officer on how to use your method.
+
+HTML and Jupyter Notebook (.ipynb) files that show the solutions to parts (a) through (c).
+
+Bon Courage!
+
+(Good luck, and may you have courage!)
