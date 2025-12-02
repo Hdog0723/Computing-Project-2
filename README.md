@@ -10,7 +10,7 @@
     - [Technical Report](https://mailuc-my.sharepoint.com/:w:/r/personal/muellel3_mail_uc_edu/Documents/AEEM%202058%20Project%202%20Technical%20Report.docx?d=w14f8b487ecb3447987f36179d4784374&e=4%3ad09f6eb207be41be84cfda4261fb4558&sharingv2=true&fromShare=true&at=9)
 
 ### At the end this will include all project materials to be turned in
-- Code `ipynb` File
-- Code `html` File
-- Field Manual `pdf`
+- ~~Code `ipynb` File~~
+- ~~Code `html` File~~
+- ~~Field Manual `pdf`~~
 - Technical Report `pdf`
